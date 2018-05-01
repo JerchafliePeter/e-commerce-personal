@@ -39,12 +39,6 @@ $form ="<form action= './signup.php' method='post'>
             <li class='nav-item'>
                     <a class='nav-link' href='signin.html'>Sign In</a>
             </li>
-            <li class='nav-item'>
-              <a class='nav-link' href='contact.html'>Contact</a>
-            </li>
-            <li class='nav-item'>
-            <a class='nav-link'href='portfolio-4-col.html'>Courses</a>
-        </li>
         <li class='nav-item'>
             <a class='nav-link' href='faq.html'>FAQ</a>
         </li>
