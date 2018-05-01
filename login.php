@@ -24,7 +24,7 @@ $form ="<form action= './login.php' method='post'>
 <!-- Navigation -->
     <nav class='navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top'>
       <div class='container'>
-        <a class='navbar-brand' href='index.html'>PeerME</a>
+        <a class='navbar-brand' href='index.html'>EasyTraders</a>
         <button class='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation'>
           <span class='navbar-toggler-icon'></span>
         </button>
@@ -51,7 +51,7 @@ $form ="<form action= './login.php' method='post'>
     </nav>
 <div class='col-lg-4 mb-4'>
 <body>
-    <h1>Sign into your PeerMe Account</h1>
+    <h1>Sign into your EasyTraders Account</h1>
     <hr>
 
     <div class='col-lg-4 mb-4'>
@@ -69,7 +69,7 @@ $form ="<form action= './login.php' method='post'>
 <!-- Footer -->
 <footer class='py-5 bg-dark'>
     <div class='container'>
-        <p class='m-0 text-center text-white'>Copyright &copy; PeerME 2018</p>
+        <p class='m-0 text-center text-white'>Copyright &copy; EasyTraders 2018</p>
     </div>
     <!-- /.container -->
 </footer>
@@ -86,7 +86,7 @@ if ($_POST['loginbtn']){
 
     if ($user){             //checks that a username was entered
         if ($password){     //checks that a password was entered
-            $link=new mysqli("localhost", "root", "password", "group4");    //connects to phpmyadmin and database
+            $link=new mysqli("localhost", "root", "password", "personal");    //connects to phpmyadmin and database
             if(!$link){
                 die("Connection to database failed");
             }
